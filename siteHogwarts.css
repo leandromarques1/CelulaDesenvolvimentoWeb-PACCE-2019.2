@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+
+/*body
+{
+	color: white;
+	background: black;
+
+}
+*/
+body
+{
+	font-family: 'Chilanka', cursive;
+	/*font-size: 20px;*/
+}
+
+#envelopeCentral
+{
+	width: 1000px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background: red;
+}
+
+/**********CABECALHO***********/
+.cabecalho
+{
+	background: black;
+	height: 50px;
+	border-bottom: white;
+}
+
+.cabecalho img
+{
+	/*width: 50px;*/
+	height: 40px;
+	padding-top: 5px;
+}
+.menu
+{
+	float: right;
+}
+
+.menu nav ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin-left: 50px; 
+	padding-right: 10px;
+}
+
+.menu nav ul li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.menu nav ul li a:hover{
+	text-decoration: underline;
+}
+/******APRESENTAÇÃO**********/
+.apresentacao
+{
+	/*background: yellow;
+	*/
+	background: black;
+	color: white;
+	
+}
+
+.imgHogwarts
+{
+	padding-left: 195px;
+	padding-right: 195px;
+}
+
+.apresentacao h1
+{
+	font-size: 45px;
+	padding-left: 17px;
+	padding-right: 17px; 
+}
+.apresentacao h2
+{
+	font-size: 32px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+/**********QUEM SOMOS********/
+.quemSomos
+{
+	/*background: blue;*/
+	background: black;
+	color: white;
+	padding: 20px;
+ 	height: 480px; 
+} 
+
+.quemSomos img
+{
+	float: left;
+	width: 450px;
+}
+
+.gradeQuemSomos
+{
+	border: 1px solid white;
+	width: 1000px;
+}
+
+.imgAcudeDeHogwarts
+{
+	float: left;
+	width: 450px;
+}
+.quemSomos p
+{
+	font-size: 25px;
+	text-align: justify; /*deixa o texto perfeitamente ajustado na esquerda e na direita*/
+}
+.quemSomos button
+{
+	background: none;
+	border-color: white;
+}
+
+.textoQuemSomos 
+{
+	/*background: orange;*/
+	background: black;
+	width: 475px;
+	float: right;
+}
+
+.textoQuemSomos button
+{
+	color: white;
+	font-size: 25px;
+	margin-left: 150px;
+	margin-right: 125px;
+	width: 200px;
+}
+.textoQuemSomos button:hover
+{
+	text-decoration: underline;
+}
+
+/******NOSSA HISTÓRIA*******/
+.nossaHistoria 
+{
+	/*background: grey;*/
+	background: black;
+	color: white;
+	font-size: 25px
+	padding: 20px;
+ 	height: 400px; 
+} 
+
+.nossaHistoria img
+{
+	float: left;
+	width: 450px;
+}
+
+.imgFundadores
+{
+	float: left;
+	width: 450px;
+}
+
+.nossaHistoria p
+{
+	font-size: 25px;
+	text-align: justify; /*deixa o texto perfeitamente ajustado na esquerda e na direita*/
+}
+.nossaHistoria button
+{
+	background: none;
+	border-color: white;
+}
+.nossaHistoria button
+{
+	color: white;
+	font-size: 25px;
+	margin-left: 150px;
+	margin-right: 125px;
+	width: 200px;
+}
+.nossaHistoria button:hover
+{
+	text-decoration: underline;
+}
+
+.textoFundadores 
+{
+	/*background: orange;*/
+	background: black;
+	width: 475px;
+	float: right;
+	font-size: 25px;
+}
+/****Casas de Hogwarts*****/
+
+.casasHogwarts
+{
+	background: green;
+	height: 1000px;
+	padding: 20px;
+}
+
+.casaGrifinoria
+{
+	background: #f92d32;
+	float: left;
+	width: 320px;
+	height: 400px;
+	margin-left: 100px;
+}
+
+.casaSonserina
+{
+	background: #038072;
+	float: right;
+	width: 320px;
+	height: 400px;
+	margin-right: 100px;
+}
+
+.casaCorvinal
+{
+	background: #27289c;
+	float: left;
+	width: 320px;
+	height: 400px;
+	margin-left: 0;
+	margin-top: 500px;
+}
+
+.casaLufaLufa
+{
+	background: #fef17c;
+	float: right;
+	width: 320px;
+	height: 400px;
+/*	margin-right: 100px;*/	
+	margin-top: 500px;
+}
+/*******Noticias*******/
+.Noticias
+{
+	background: #1ebea5;
+	padding: 20px;
+ 	height: 600px; 
+} 
+
+.noticiaQuadribol
+{
+	background: #fe3e03;
+	width: 400px;
+	float: left;
+}
+
+.noticiaQuadribol img
+{
+	width: 400px;
+}
+
+.noticiaPACCEB
+{
+	background: #525a28;
+	width: 400px;
+	float: right;
+}
+
+.noticiaPACCEB img
+{
+	width: 400px;
+}
+
+.Noticias button
+{
+	 
+}
+
+/********CADASTRO*******/
+.cadastro
+{
+	background: #80D066;
+}
+/********REDES SOCIAIS*******/
+.redesSociais
+{
+	/*background: #daa732;*/
+	background: black;
+	color: white;
+	padding-top: 20px;
+}
+
+.redesSociais img
+{
+	padding-left: 190px;
+	border-color: white;
+}
+
+
+
+/*********RODAPE*********/
+/*footer
+{
+	background: #f1ccb9;
+	font-size: 25px;
+	text-align: right;
+}*/
+.rodape
+{
+	background: #f1ccb9;
+	background: black;
+	color: white;
+	height: 50px;
+	text-align: right;
+	/*margin: 20px;*/
+}
+
+
+.rodape img
+{
+	width: 50px;
+	padding-top: 5px;
+	height: 40px;
+	float: left;
+}
+
+.rodape p
+{
+	/*background: orange;*/
+	
+	font-size: 30px;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+/*textoRodape
+{
+	float: right;
+	background: orange;
+
+	font-size: 25px;
+	height: 40px;
+}*/
+
+
+
+/*
+.textoRodape
+{
+	float: right;
+	color: white;
+}
+*/
